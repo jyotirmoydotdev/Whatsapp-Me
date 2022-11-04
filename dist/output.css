@@ -572,6 +572,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
+.overflow-scroll {
+  overflow: scroll;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
