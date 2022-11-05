@@ -641,6 +641,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0px;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -765,6 +777,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding: 0.75rem;
   }
 
+  .sm\:p-9 {
+    padding: 2.25rem;
+  }
+
   .sm\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -772,6 +788,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:pl-0 {
     padding-left: 0px;
+  }
+
+  .sm\:pb-9 {
+    padding-bottom: 2.25rem;
   }
 
   .sm\:text-9xl {
