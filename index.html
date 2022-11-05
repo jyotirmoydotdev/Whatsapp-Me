@@ -17,10 +17,15 @@
     </nav>
     <div class=" flex flex-col min-h-screen ">
         <div class=" sm:grow grow-0 -bottom-3 bg-blue-300 dark:bg-blue-500 dark:text-white text-6xl sm:text-9xl p-9 font-black overflow-hidden">
-
             Hello,<br>
             Whatsapp Me
-            <div class=" h-24 sm:hidden">
+            <div class=" h-24 sm:font-light text-base font-thin m-4  ml-0 sm:ml-0">
+				<p><br>
+				<hr>
+				<div class="sm:text-3xl sm:p-5 sm:pl-0 p-2 pl-0">
+					Text to anyone without saving there number.
+				</div>
+				</p>
             </div>
         </div>
         <div class="grow relative flex flex-col sm:px-32 px-5 p-5 bg-white dark:bg-slate-800">
@@ -29,7 +34,7 @@
                 <div class=" flex justify-between flex-row-reverse gap-3">
                     <input type="text" id="phone" name="phone" onkeypress="return onlyNumberKey(event)" placeholder="Enter phone number here" required class="overflow-hidden grow dark:text-black dark:bg-white bg-slate-800 text-white p-3 focus:outline-none ">
                     <!-- country codes (ISO 3166) and Dial codes. -->
-                    <select name="countryCode" id="std" class="text-black focus:outline-none w-5 sm:w-24 ">
+                    <select name="countryCode" id="std" class="text-white dark:text-black dark:bg-white bg-slate-800 focus:outline-none w-5 sm:w-24 ">
                     	<option data-countryCode="IN" value="91" Selected>India (+91)</option>
                     	<option data-countryCode="GB" value="44">UK (+44)</option>
                     	<option data-countryCode="US" value="1">USA (+1)</option>
@@ -259,4 +264,5 @@
 		<div class="absolute bottom-0">Made with ❤️ from Jyotirmoy</div>
 	</footer>
 </body>
+
 </html>
