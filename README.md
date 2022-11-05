@@ -9,6 +9,7 @@ It can be :
 
 # Development
 For this project I have used :
-<center>
-<img src="https://skillicons.dev/icons?i=html,javascript,css,tailwind"/>
-</center>
+<p align="center">
+
+  <img src="https://skillicons.dev/icons?i=html,javascript,css,tailwind"/>
+</p>
